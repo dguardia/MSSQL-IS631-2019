@@ -4,8 +4,8 @@
 
 ### No more install virtual machines, get into permission issues.
 
-## Follow the steps to get up and running with MS SQL Server
-## To get this you first need to install docker if you have Homebrew installed this should be easy, if nit just run this command:
+#### Follow the steps to get up and running with MS SQL Server
+#### To get this you first need to install docker if you have Homebrew installed this should be easy, if nit just run this command:
 
 ```bash
 $ brew cask install docker
