@@ -76,12 +76,15 @@ clone this repo
 ```bash
 $ git clone https://github.com/dguardia/MSSQL-IS631-2019.git
 ```
+
+### Step 2
 cd to the folder
 
 ```bash
 $ cd is631-mssqlserver
 
 ```
+### Step 3
 
 ```bash
 $ docker-compose up -d
@@ -109,19 +112,34 @@ Options:
 
 Now the MS SQL server is up and running
 
+### Optional
+
 **For MAC Users: you can use terminal for mssql
 ```bash
 $ npm install -g sql-cli
 ```
 if doesn't work use `sudo`
 
-To manage the database we will be using Azure Data Studio
+
+### Step 4
+To manage the database we will be using Azure Data Studio (Mac OX)
 
 Use brew to do that
 
 ```bash
 $ brew cask install azure-data-studio
 ```
-I hope this will help you to use it in class.
+### Step 5
+Connect
+Open the program it should be inside the application folder
+or Cmd + space then the name "Azure Data Studio"
+
+server: localhost
+user: sa
+password: Test@123 (same as line 12 docker-compose.yml)
+
+### Done
+
+I hope this will help to use it in class.
 
 cheers!
