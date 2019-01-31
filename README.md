@@ -1,6 +1,6 @@
 # Class IS631 Spring 2019
 
-## I create this repo to be use for the class IS631.
+## This repo can be use for the class IS631.
 
 ### No more install virtual machines, get into permission issues.
 
